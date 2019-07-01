@@ -22,5 +22,17 @@ a{
   text-decoration: none;
 }
 
+.messagelist{
+  margin-left: 2%;
+}
+
+.row{
+  display:flex;
+  justify-content: space-around;
+}
+
+.message{
+  width:80%;
+}
 
 

@@ -6,7 +6,6 @@ import Nav from './Components/Nav'
 import AboutUs from './Components/AboutUs'
 import ContactUs from './Components/ContactUs'
 import Messages from './Components/Messages'
-
 function App() {
   return (
     <BrowserRouter>
@@ -14,8 +13,8 @@ function App() {
       <Switch>
         <Route path="/aboutus" component={AboutUs}/>
         <Route path="/contactus" component={ContactUs}/>
-        <Route path="/messages" component={Messages}/>
-      </Switch>
+        <Route path="/messages" component={Messages}/>     
+        </Switch>
     </BrowserRouter>
   );
 }
