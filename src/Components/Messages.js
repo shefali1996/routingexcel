@@ -4,6 +4,8 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Message1 from './Message1'
 import Message2 from './Message2'
 import Message3 from './Message3'
+import Message4 from './Message4'
+import Message5 from './Message5'
 
 export default class Messages extends Component {
     render() {
@@ -32,8 +34,8 @@ export default class Messages extends Component {
             <Route  path="/messages/1" component={Message1}/>
             <Route  path="/messages/2" component={Message2}/>
             <Route  path="/messages/3" component={Message3}/> 
-            <Route  path="/messages/4" component={Message3}/>   
-            <Route  path="/messages/5" component={Message3}/>     
+            <Route  path="/messages/4" component={Message4}/>   
+            <Route  path="/messages/5" component={Message5}/>     
             </div>
         )
     }
